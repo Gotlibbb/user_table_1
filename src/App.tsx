@@ -7,7 +7,7 @@ import { Routes } from './data'
 const App = () => {
 
   return <div>
-    <Route path={'/'} exact render={() => <HelloPage/>}/>
+    <Route path={'/user_table_1/'} exact render={() => <HelloPage/>}/>
     <Route path={Routes.usersTables} render={() => <UsersTablesContainer/>}/>
   </div>
 }

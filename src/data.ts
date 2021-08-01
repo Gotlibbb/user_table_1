@@ -6,7 +6,7 @@ export type UserDataType = {
 }[]
 
 export enum Routes {
-  usersTables = '/user-table'
+  usersTables = '/user_table_1/user-table'
 }
 
 export const userData: UserDataType = [{
